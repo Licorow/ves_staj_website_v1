@@ -1,0 +1,51 @@
+#kurumsal{
+    text-align: center;
+    margin: 40px auto;
+    width: 75%;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: rgb(106, 226, 241, .8);
+    filter: drop-shadow(0 0 5px rgb(200, 200, 200));
+    border-radius: 15px;
+    background: linear-gradient(to bottom , rgb(51, 102, 153),rgb(51, 102, 153),rgb(51, 102, 153), rgb(9, 213, 240));
+
+}
+
+#kurumsal h1{
+    text-transform: uppercase;
+    color: rgb(250, 250, 250);
+    font-size: 210%;
+   
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 1%;
+
+
+    
+
+    border-radius: 15px;
+    width: 95%;
+}
+
+#kurumsal .neler{
+    
+    text-align: center;
+    border-radius: 15px;
+    width: 95%;
+    min-height: 200px;
+    margin: 0 auto;
+    display: block;
+    padding: 4%;
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 3%;
+
+}
+#kurumsal .neler h3{
+    font-size: 180%;
+
+}
+
+#kurumsal .neler p{
+    font-size: 100%;
+
+}

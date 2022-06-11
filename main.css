@@ -1,0 +1,86 @@
+body{
+    min-height: 1000px;
+    font-family: "Poppins", sans-serif;
+    z-index: -2;
+    background-color: white;
+    overflow-x: hidden;
+    background-image: url(img/ves2.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    font-family: Tahoma, sans-serif;
+}
+
+.sol-div{
+    width: 30%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(51, 102, 153);
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom,rgb(51, 102, 153),rgb(51, 102, 153), rgb(9, 213, 240));
+    z-index: 5;
+}
+.sol-div2{
+    display: none;
+}
+
+.sag-div{
+
+    width: 70%;
+    float: right;
+    position: relative;
+    min-height: 1000px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+/* SOL DİV */
+.baslik1{
+    margin: 100px 0 0 0;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 0;
+}
+.baslik1{
+    margin: 50px 0 0 0;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 0;
+}
+.baslik1 .marka{
+
+    font-size: 45px;
+    padding: 0;
+    margin: 0 0 6px 0;
+}
+.baslik1 .altMetin{
+    padding: 0;
+    margin: 0;
+}
+
+.bodyresim{
+    width: 70%;
+    float: left;
+    position: relative;
+    display: inline;
+    z-index: 0;
+    right: -200px;
+
+}
+
+.clear{
+    clear: both;
+}
+.rexim{
+    float: right;
+    width: 50%;
+}

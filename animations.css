@@ -1,0 +1,113 @@
+.logo{
+    animation: myColorAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    background-color: white;
+    color: rgb(51, 102, 153);;
+}
+.logobg{
+    animation: myColorAnimation2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.catRo1{
+   
+    transition: .5s;
+}
+.catRo1:hover{
+
+    color: dodgerblue;
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+
+
+
+@keyframes catColor2{
+    0%{
+        color: red;
+
+    }
+    50%{
+        color: dodgerblue;
+        transform: scale(1.5, 1.5);
+    }
+    100%{
+        color: red;
+    
+    }
+
+}
+
+._10 p{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+}
+._10 ._p1{
+    animation: myColorAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+._10 ._p2{
+    animation: myRotateAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+._10 ._p3{
+    animation: myTranslateAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+._10 ._p4{
+    animation: myScaleAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+._10 ._p5{
+    animation: myOpacityAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+._10 ._p6{
+    animation: myFontAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes myColorAnimation{
+    0%{
+        background-color: rgb(51, 102, 153);
+        color: white;
+        transform: translateX(-200px);
+    }
+    100%{
+        background-color: white;
+        color: rgb(51, 102, 153);;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes myRotateAnimation{
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes myTranslateAnimation{
+    50%{transform: translateX(500px);}
+}
+@keyframes myScaleAnimation{
+    50%{transform: scale(1.5, 1.5);}
+}
+@keyframes myOpacityAnimation{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes myFontAnimation{
+    0%{font-size: 85px;}
+    50%{font-size: 100px;}
+    100%{font-size: 85px;}
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VES</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+
+    <link rel="stylesheet" href="../css/galery.css" type="text/css">
+    <link rel="stylesheet" href="../css/galeryResponsive.css" type="text/css">
+
+    <script src="https://kit.fontawesome.com/b423602998.js" crossorigin="anonymous"></script>
+    
+</head>
+<body >
+
+
+
+    <div class="sol-div">
+        <div class="baslik1">
+            <a href="../index.html">
+                <h2 class="marka logo">VES</h2>
+            </a>
+        <h4 class="altMetin">ROBOTİK VE OTOMASYON SİSTEMLERİ</h4>
+        </div> 
+
+        <div class="resimler">
+            <div class="res">
+                <img src="../icerik/img/01.jpg" alt="Vİl kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <div class="res">
+                <img src="../icerik/img/02.PNG" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <div class="res">
+                <img src="../icerik/img/03.PNG" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <div class="res">
+                <img src="../icerik/img/04.PNG" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+
+
+            <div class="res">
+                <img src="../icerik/img/06.jpg" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <div class="res">
+                <img src="../icerik/img/07.jpg" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <div class="res">
+                <img src="../icerik/img/08.jpg" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+           
+            <div class="res">
+                <img src="../icerik/img/10.jpg" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <div class="res">
+                <img src="../icerik/img/09.jpg" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <div class="res">
+                <img src="../icerik/img/11.jpg" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            
+            <div class="res">
+                <img src="../icerik/img/12.jpg" alt="Vil kauçuk fabrikası" onclick="myFunction(this);">
+            </div>
+
+            <!--
+            <div class="res">
+                <video src="../icerik/video/video01.mp4" onclick="myFunctionVideo(this);">
+                    Şenpilinç yumurta fabrikası
+                </video>
+            </div>
+            -->
+
+
+            
+
+        </div>
+
+
+      
+    </div>
+
+    
+    <div class="sag-div">
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg">
+            
+            
+            <div id="imgtext"></div>
+
+            
+        </div>
+
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <video id="expandedVideo" autoplay></video>
+            <div id="videotext"></div>
+        </div>
+
+
+
+    </div>
+
+    <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var expandedVideo = document.getElementById("expandedVideo");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandedVideo.parentElement.style.display = "none";
+          expandImg.parentElement.style.display = "block";
+          expandedVideo.src="";
+        }
+
+        function myFunctionVideo(video) {
+          var expandedVideo = document.getElementById("expandedVideo");
+          var expandImg = document.getElementById("expandedImg");
+          var videotext = document.getElementById("videotext");
+          expandedVideo.src = video.src;
+          videotext.innerHTML = video.innerHTML;
+          expandedVideo.parentElement.style.display = "block";
+          expandImg.parentElement.style.display = "none";
+        }
+    </script>
+</body>
+</html>

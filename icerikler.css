@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+
+#nelerYapiyoruz, #iletisim, #referanslar, #memnun{
+    text-align: center;
+    margin: 20px 20px 40px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#galeri{
+    background: linear-gradient(to bottom right,rgb(9, 213, 240), rgb(51, 102, 153),rgb(51, 102, 153), rgb(9, 213, 240));
+    border-radius: 15px;
+
+    text-align: center;
+    margin: 20px 20px 40px 20px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    width: 75%;
+    margin: 8% auto;
+    display: none;
+
+}
+#galeri h1{
+    color: white;
+    font-size: 150%;
+
+}
+#galeri a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    text-align: justify;
+    transition: .2s;
+    letter-spacing: 1px;
+
+    border-radius: 5px;
+}
+#galeri a:hover{
+    background-color:white;
+    color: #333333;
+    
+  
+}
+
+#nelerYapiyoruz h1, #iletisim h1, #calisanlarimiz h1, #referanslar h1{
+    
+    text-transform: uppercase;
+    color: rgb(27, 118, 209);
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0;
+    margin: 10px;
+
+}
+
+#memnun{
+
+}
+#memnun div{
+
+}
+#memnun h2{
+
+}
+#memnun h3{
+    display: inline-block;
+    width: 30%;
+    
+    margin: 1%;
+    font-size: 150%;
+    color: #333333;
+
+    border: 1px solid rgb(216, 216, 216);
+    padding: 4% 2% 2% 2%;
+    border-radius: 15px;
+}
+#memnun h3 p{
+    font-size: 70%;
+    color: #5f6164;
+    text-shadow: none;
+}
+#memnun p{
+    color: #5f6164;
+    font-size: 100%;
+}
+#memnun img{
+    width: 50%;
+}
+
+
+#nelerYapiyoruz p{
+    color: #5f6164;
+    text-align: justify;
+    font-weight: bold;
+    width: 80%;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+
+
+.hr3{
+    background-color: rgb(62, 152, 160);
+    height: 1px;
+
+}
+
+.hrrr{
+    width: 100%;
+    height: 5px;
+    background-color: dodgerblue;
+    background: linear-gradient(to right, white, rgba(27, 118, 209), white);
+    border-radius: 50px;
+    border-radius: 50%;
+}
+
+
+
+#res01{
+    height: 250px;
+    width: 100%;
+    margin: -20px 20px;
+    padding: 20px;
+}
+#res01 div{
+    background-image: url(img/nachi_mz07.png);
+    background-attachment: fixed;
+    background-position: top right;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: inherit;
+    margin: 0 0 0 250px;
+}
+
+#referanslar .likeTablo{
+  
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+
+#referanslar .likeTablo .eleman{
+    text-align: center;
+    transition: all 0.3s;
+    width: 20%;
+
+    margin: 2%;
+    height: 100px;
+    display: inline-block;
+}
+
+
+#nelerYapiyoruz .likeTablo{
+  
+    padding: 0;
+    margin: 0;
+}
+#nelerYapiyoruz .likeTablo .satir{
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+#nelerYapiyoruz .likeTablo .satir a{
+    text-decoration: none;
+}
+#nelerYapiyoruz .likeTablo .satir .eleman{
+
+    transition: all 0.3s;
+    cursor: pointer;
+    text-align: center;
+
+    display: inline-block;
+    padding: 0;
+    margin: 0 2% 2% 2%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid rgb(240, 240, 240);
+
+
+    box-sizing: border-box;
+
+    width: 26%;
+    height: 30%;
+}
+#nelerYapiyoruz .likeTablo .satir .eleman img{
+    border-radius: 5px;
+    width: 100%;
+    margin: 0;
+}
+#nelerYapiyoruz .likeTablo .satir .eleman:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #56CCF2;
+}
+/*
+#nelerYapiyoruz .likeTablo .satir .eleman:hover p{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px;
+    border-color: #56CCF2;
+    border-style: solid;
+    
+}
+*/
+#nelerYapiyoruz .likeTablo .satir .eleman p{
+    color: black;
+
+    margin: 5px 5px 5px 0;
+    height: 55px;
+
+    overflow: hidden;
+    font-size: 20px;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#iletisim{
+    text-align: center;
+}
+#iletisim h1{
+   text-align: center;
+}
+#iletisim a{
+    text-align: center;
+    display: inline-table;
+    color: white;
+    text-decoration: none;
+    background-color: #39c5fc;
+
+    border-radius: 10px;
+    padding: 5px 0 0 0;
+    height: 200px;
+    margin: 2%;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    margin: 5% 4%;
+    box-sizing: border-box;
+
+    width: 23%;
+}
+#iletisim a:hover{
+    box-shadow: 0 4px 8px 0 #39c5fc, 0 6px 20px 0 #39c5fc;
+
+    cursor: pointer;
+}
+#iletisim a i{
+    font-size: 30px;
+}
+
+#iletisim .linkler{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#iletisim .logo2{
+    display: inline-block;
+    margin: 0;
+    padding: 10%;
+    font-size: 145%;
+    width: 100%;
+    height: 50%;
+
+    
+
+}
+#iletisim .yazi{
+    width: 100%;
+    
+    height: 50%;
+    font-size: 80%;
+    background-color: white;
+    margin: 0;
+    color: black;
+    padding: 10% 0;
+    font-weight: bold;
+    height: 50%;
+    border-radius: 0 0 10px 10px;
+}
+
+.exResim{
+    width: 100%;
+    background-image: url(img/Industrial_Robots01.png);
+    background-attachment: fixed;
+    background-position: 80% 160px;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    height: inherit;
+
+    display: table; 
+    position: relative; 
+    overflow: hidden;
+    text-align:center;
+    line-height:23px;
+    padding: 0;
+    margin: 0;
+
+
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #56CCF2;
+    border-radius: 5px;
+}
+.exResim h2{
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+
+    text-shadow: 1px 1px 5px white, 
+    -1px -1px 5px white,
+    1px -1px 5px white,
+    -1px 1px 5px white;
+
+
+}

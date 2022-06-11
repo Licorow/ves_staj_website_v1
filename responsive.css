@@ -1,0 +1,151 @@
+@media screen and (max-width: 1200px) {
+    .sol-div{
+        display: none;
+    
+    }
+    .sol-div2{
+        display: block;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        z-index: 10;
+        height: 680px;
+    }
+    .sol-div2 .baslik1{
+        margin: 8px 0 0 0;
+        background-color: white;
+        display: inline-block;
+        z-index: 4;
+        width: 100%;
+        vertical-align: bottom;
+   
+
+    }
+
+
+
+    footer img{
+        width: 53%;
+    }
+    
+
+
+    .sol-div2 .baslik1 h2{
+        margin: 0;
+        float: left;
+        padding: 2% 3%;
+        
+    }
+    .sol-div2 .baslik1 h4{
+
+    }
+    .sag-div{
+        width: 100%;
+    }
+
+    .endustiriyel ul li{
+        width: 100%;
+        margin: 5% 0;
+    }
+
+
+
+    #memnun h3{
+        width: 100%;
+        text-align: left;
+        padding: 5%;
+        margin: 5% 0;
+        text-decoration: underline;
+    }
+    #memnun h3 p{
+        padding: 0;
+        margin: 0 5%;
+        display: inline;
+        float: right;
+        text-decoration: none;
+    }
+
+    #memnun img{
+        width: 85%;
+    }
+
+
+
+
+
+
+
+
+    #nelerYapiyoruz .likeTablo .satir .eleman{
+       
+        margin: 4% 0;
+        width: 80%;
+
+        
+    }
+    #nelerYapiyoruz .likeTablo .satir .eleman p{
+        font-size: 120%
+
+
+    }
+    #calisanlarimiz .card {
+        margin: 4% 2%;
+        width: 43%;
+    }
+
+
+    #referanslar .likeTablo .eleman{
+        margin: 4% 3%;
+        width: 25%;
+    }
+
+    #referanslar .likeTablo .eleman img{
+        width: 100%;
+    }
+
+    #iletisim a{
+        margin: 4% 3%;
+        width: 80%;
+    }
+
+    footer .konteyner .row{
+        width: 45%;
+        margin: 5% 2%;
+    }
+
+    #hosgeldin{
+        display: none;
+    }
+
+
+
+    .endustiriyel ul li{
+        padding: 7% 3%;
+    }
+
+    .endustiriyel h3{
+        font-size: 150%;
+    
+    }
+    .endustiriyel .h44{
+        font-size: 90%;
+    }
+
+    .endustiriyel ul li h2{
+        font-size: 120%;
+
+    }
+    .endustiriyel ul li p{
+        font-size: 100%;
+
+    }
+
+    #galeri{
+        display: block;
+    }
+
+}
+  
+@media screen and (min-width: 1000px) {
+    
+}

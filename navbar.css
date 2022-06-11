@@ -1,0 +1,38 @@
+#navbar{
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar ul{
+
+    padding: 0;
+    margin: 10% 4% 4% 4%;
+    list-style: none;
+    width: 100%;
+}
+#navbar ul li{
+
+    padding: 0;
+    margin: 4% 0;
+    width: 100%;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    width: 90%;
+    display: inline-block;
+    padding: 3%;
+    font-size: 140%;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+.secilen{
+    background-color: white;
+    color: black;
+}

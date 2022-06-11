@@ -1,0 +1,84 @@
+@media screen and (max-width: 1200px) {
+    .sol-div{
+        width: 100%;
+        position: static;
+        bottom: 0;
+        background-color: rgb(51, 102, 153);
+        overflow: hidden;
+        height: 100vh;
+        float: none;
+
+    }
+    
+    .sag-div{
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+  
+    .resimler{
+        margin-top: 2%;
+        overflow: auto;
+
+        height: 80vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .resimler .res{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        height: auto;
+        width: 90%;
+    
+    }
+
+
+
+    #imgtext, #videotext{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        color: rgb(255, 255, 255);
+        font-size: 150%;
+    
+        background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+        margin: 0;
+    
+        letter-spacing: 1px;
+    
+        
+    }
+
+    .resimler .res img, .resimler .res video{
+        opacity: 1;
+        border: 2px solid white;
+        border-radius: 15px;
+        cursor: auto; 
+    }
+    
+
+    .closebtn{
+        display: none;
+    }
+
+    #expandedImg{
+        width: 100%;
+        height: auto;
+      }
+      #expandedVideo{
+        width: 100%;
+        height: auto;
+      }
+}
+

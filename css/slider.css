@@ -1,0 +1,70 @@
+ 
+.hero-image{
+
+    width: 70%;
+    float: right;
+    position: relative;
+
+    background-image: url(../img/muktedir.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+  
+  .hero-text {
+
+
+    position: absolute;
+    top: 13.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+
+    text-transform: uppercase;
+    color: white;
+    font-size: 210%;
+   
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 1%;
+
+
+ 
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+    border-radius: 15px;
+    width: 60%;
+   
+/*
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+*/
+  }
+
+  .hero-text p{
+    font-size: 50%;
+    letter-spacing: normal;
+    padding: 1%;
+  }
+  
+
+  
+
+  
+  @keyframes example {
+    0%   {
+         left:50%; top:13.5%;
+    }
+
+    50%  {
+        left:50%; top:15%;
+    }
+    100% {
+        left:50%; top:13.5%;
+    }
+  }
